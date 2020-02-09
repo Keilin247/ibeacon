@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iBeacon_test" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test3rd floor" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RM7-hT-6c9">
+                                <rect key="frame" x="-223" y="-113" width="770" height="860"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="860" id="0Ka-jy-vrK"/>
+                                    <constraint firstAttribute="width" constant="770" id="otS-UH-WOO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M1B-Qc-oEE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="262"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beacon Minor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dIt-nV-gCh">
+                                <rect key="frame" x="104" y="20" width="206" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="PR9-4L-cbd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beacon Distance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dsn-x2-mzj">
+                                <rect key="frame" x="0.0" y="185" width="414" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="HzS-nP-dGA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beacon Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzd-Lp-3dK">
+                                <rect key="frame" x="66" y="75" width="282" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="yIH-cN-E8z"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black dot" translatesAutoresizingMaskIntoConstraints="NO" id="vWP-7x-YEd">
+                                <rect key="frame" x="149" y="344" width="27" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="uHp-H6-Awz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="black dot" translatesAutoresizingMaskIntoConstraints="NO" id="4Hs-rM-JTS">
+                                <rect key="frame" x="149" y="560" width="27" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="vxD-iB-FjK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="black dot" translatesAutoresizingMaskIntoConstraints="NO" id="mt2-8f-fwI">
+                                <rect key="frame" x="275" y="452" width="27" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="27" id="BLI-uW-Pks"/>
+                                    <constraint firstAttribute="height" constant="26" id="YdC-yq-D6t"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAN-Yz-C0Z">
+                                <rect key="frame" x="149" y="452" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vWP-7x-YEd" firstAttribute="top" secondItem="M1B-Qc-oEE" secondAttribute="bottom" constant="82" id="4Y1-44-vbj"/>
+                            <constraint firstItem="gzd-Lp-3dK" firstAttribute="centerY" secondItem="M1B-Qc-oEE" secondAttribute="centerY" id="4mf-fg-DNF"/>
+                            <constraint firstItem="Dsn-x2-mzj" firstAttribute="trailing" secondItem="M1B-Qc-oEE" secondAttribute="trailing" id="5GR-ic-jwm"/>
+                            <constraint firstItem="gzd-Lp-3dK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="9dB-vl-sS3"/>
+                            <constraint firstItem="dIt-nV-gCh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="104" id="E4x-X1-q9S"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4Hs-rM-JTS" secondAttribute="bottom" constant="138" id="EWK-Nk-dnh"/>
+                            <constraint firstItem="Dsn-x2-mzj" firstAttribute="top" secondItem="dIt-nV-gCh" secondAttribute="bottom" constant="88" id="IIc-Hs-lMM"/>
+                            <constraint firstItem="gzd-Lp-3dK" firstAttribute="centerX" secondItem="dIt-nV-gCh" secondAttribute="centerX" id="NYL-cX-5JH"/>
+                            <constraint firstItem="RM7-hT-6c9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-223" id="NcH-dp-a1t"/>
+                            <constraint firstItem="vWP-7x-YEd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="149" id="SW5-yZ-AiU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mt2-8f-fwI" secondAttribute="bottom" constant="254" id="TTK-4Q-zrV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mt2-8f-fwI" secondAttribute="trailing" constant="112" id="Tfl-8c-g5s"/>
+                            <constraint firstItem="Dsn-x2-mzj" firstAttribute="bottom" secondItem="M1B-Qc-oEE" secondAttribute="bottom" id="YeD-gC-Fxr"/>
+                            <constraint firstItem="dIt-nV-gCh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZPZ-lV-pDz"/>
+                            <constraint firstItem="4Hs-rM-JTS" firstAttribute="trailing" secondItem="vWP-7x-YEd" secondAttribute="trailing" id="ZSd-Sm-J3e"/>
+                            <constraint firstItem="dIt-nV-gCh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b3C-Gp-GO0"/>
+                            <constraint firstItem="M1B-Qc-oEE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="g4t-23-E9o"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="RM7-hT-6c9" secondAttribute="bottom" constant="-11" id="hTK-9J-XVQ"/>
+                            <constraint firstItem="4Hs-rM-JTS" firstAttribute="leading" secondItem="vWP-7x-YEd" secondAttribute="leading" id="hwJ-L8-3zk"/>
+                            <constraint firstItem="gzd-Lp-3dK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="iDb-OQ-1hl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vWP-7x-YEd" secondAttribute="trailing" constant="238" id="mvF-hv-7eH"/>
+                            <constraint firstItem="Dsn-x2-mzj" firstAttribute="leading" secondItem="M1B-Qc-oEE" secondAttribute="leading" id="uR9-Lw-cWQ"/>
+                            <constraint firstItem="gzd-Lp-3dK" firstAttribute="centerX" secondItem="M1B-Qc-oEE" secondAttribute="centerX" id="ukc-9c-WHo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="Map" destination="RM7-hT-6c9" id="2hl-Iq-zRI"/>
+                        <outlet property="beaconDistanceText" destination="Dsn-x2-mzj" id="NI4-86-w8a"/>
+                        <outlet property="beaconImg_1" destination="vWP-7x-YEd" id="LHn-zl-Mff"/>
+                        <outlet property="beaconImg_2" destination="mt2-8f-fwI" id="aHu-xo-4wq"/>
+                        <outlet property="beaconImg_3" destination="4Hs-rM-JTS" id="TBl-UQ-E22"/>
+                        <outlet property="beaconLabel" destination="gzd-Lp-3dK" id="Ud3-kg-y9O"/>
+                        <outlet property="beaconNameText" destination="dIt-nV-gCh" id="1in-71-q26"/>
+                        <outlet property="userImg" destination="YAN-Yz-C0Z" id="rvQ-cD-vO4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="92.753623188405811" y="26.086956521739133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="black dot" width="2000" height="2000"/>
+        <image name="test3rd floor" width="1512" height="1965"/>
+    </resources>
+</document>
